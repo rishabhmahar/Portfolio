@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Rishabh Mahar — Software developer specializing in Python, Machine Learning and SQL. Portfolio showcasing projects and contact info." />
+	<title>Rishabh Mahar — Software Developer (Python, ML, SQL)</title>
+	<style>
+		:root{--accent:#4f46e5;--muted:#6b7280;--bg:#f9fafb}
+		*{box-sizing:border-box}
+		body{font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,Segoe UI,Helvetica,Arial;line-height:1.5;margin:0;background:var(--bg);color:#111}
+		a{color:var(--accent)}
+		.container{max-width:1000px;margin:1rem auto;padding:1rem}
+		header{background:#fff;border-radius:12px;padding:0.75rem;box-shadow:0 1px 6px rgba(16,24,40,0.04)}
+		.nav{display:flex;justify-content:space-between;align-items:center}
+		.name{font-weight:700;font-size:1.2rem}
+		.role{color:var(--muted);font-size:0.95rem}
+		main{margin-top:1rem}
+		.hero{background:#fff;border-radius:12px;padding:1.25rem}
+		.hero h1{font-size:1.6rem;margin:0 0 0.4rem}
+		.hero p{margin:0 0 0.75rem;color:#374151}
+		.actions{display:flex;gap:0.5rem;flex-wrap:wrap}
+		.btn{display:inline-block;padding:0.45rem 0.9rem;border-radius:8px;text-decoration:none;font-weight:600}
+		.btn-primary{background:var(--accent);color:#fff}
+		.btn-outline{border:1px solid var(--accent);color:var(--accent);background:#fff}
+		.section{background:#fff;border-radius:12px;padding:1rem;margin-top:1rem}
+		.section h2{margin:0 0 0.6rem;font-size:1.1rem}
+		.skills{display:flex;flex-wrap:wrap;gap:0.5rem}
+		.skill{background:#f3f4f6;padding:0.35rem 0.7rem;border-radius:999px;font-size:0.9rem}
+		.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+		.card{border:1px solid #e6e7eb;border-radius:8px;padding:0.85rem;background:#fff;display:flex;flex-direction:column;justify-content:space-between}
+		.card h3{margin:0;font-size:1rem}
+		.card p{margin:0.4rem 0;color:var(--muted);font-size:0.95rem}
+		.card .tech{font-size:0.85rem;color:#374151}
+		.links{margin-top:0.6rem;display:flex;gap:0.5rem;flex-wrap:wrap}
+		.links a{font-size:0.85rem;padding:0.28rem 0.5rem;border-radius:6px;border:1px solid #e6e7eb;text-decoration:none;color:inherit}
+		.resume{display:inline-flex;gap:0.5rem;align-items:center}
+		footer{margin-top:1rem;text-align:center;color:var(--muted);font-size:0.9rem}
+		@media (max-width:520px){.hero h1{font-size:1.35rem}}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header role="banner">
+			<div class="nav">
+				<div>
+					<div class="name">Rishabh Mahar</div>
+					<div class="role">Software Developer — Python · Machine Learning · SQL</div>
+				</div>
+				<div class="resume">
+					<a class="btn btn-outline" href="#contact">Contact</a>
+					<a class="btn btn-primary" href="#projects">See projects</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero" aria-labelledby="intro">
+				<h1 id="intro">Hi, I’m Rishabh — I build data-driven applications and machine learning systems</h1>
+				<p>I specialize in Python, Machine Learning and SQL. I build end-to-end solutions: data ingestion, model training, and production-ready APIs. I also write clean backend services and scripts using Java, C/C++, and JavaScript where needed.</p>
+				<div class="actions">
+					<a class="btn btn-primary" href="#contact">Hire / Contact</a>
+					<a class="btn btn-outline" href="https://github.com/rishabhmahar/Python" target="_blank" rel="noopener noreferrer">GitHub</a>
+				</div>
+			</section>
+
+			<section class="section" id="skills" aria-labelledby="skills-heading">
+				<h2 id="skills-heading">Key skills</h2>
+				<div class="skills">
+					<span class="skill">Python</span>
+					<span class="skill">Machine Learning</span>
+					<span class="skill">Pandas / NumPy</span>
+					<span class="skill">scikit-learn / TensorFlow</span>
+					<span class="skill">SQL / MySQL</span>
+					<span class="skill">APIs / Flask / FastAPI</span>
+					<span class="skill">Version control (Git)</span>
+					<span class="skill">C / C++ / Java</span>
+					<span class="skill">JavaScript / Node.js</span>
+					<span class="skill">Linux / Bash</span>
+				</div>
+			</section>
+
+			<section class="section" id="projects" aria-labelledby="projects-heading">
+				<h2 id="projects-heading">Selected projects</h2>
+				<div class="projects">
+					<article class="card" aria-labelledby="p1">
+						<div>
+							<h3 id="p1">Weather Dashboard (Python, Flask, SQLite)</h3>
+							<p>Backend service that fetches weather data from external API and stores recent searches. Small, deployable Flask app with a lightweight frontend.</p>
+							<div class="tech">Python • Flask • SQLite • JavaScript</div>
+						</div>
+						<div class="links">
+							<a href="https://github.com/rishabhmahar/Python" target="_blank" rel="noopener noreferrer">GitHub</a>
+							<span class="no-demo">No live demo</span>
+						</div>
+					</article>
+
+					<article class="card" aria-labelledby="p2">
+						<div>
+							<h3 id="p2">ML Classifier (scikit-learn)</h3>
+							<p>Pipeline for data cleaning, feature engineering and model training with cross-validation and evaluation metrics. Focus on reproducibility and clear model reports.</p>
+							<div class="tech">Python • scikit-learn • Pandas • Jupyter</div>
+						</div>
+						<div class="links">
+							<a href="https://github.com/rishabhmahar/Python" target="_blank" rel="noopener noreferrer">Code</a>
+							<span class="no-demo">Notebook</span>
+						</div>
+					</article>
+
+					<article class="card" aria-labelledby="p3">
+						<div>
+							<h3 id="p3">Data ETL & Reporting</h3>
+							<p>ETL scripts to load data into MySQL, scheduled jobs and SQL reports for analytics. Includes data validation and basic monitoring alerts.</p>
+							<div class="tech">Python • SQL • MySQL • Bash</div>
+						</div>
+						<div class="links">
+							<a href="https://github.com/rishabhmahar/Python" target="_blank" rel="noopener noreferrer">Repository</a>
+							<span class="no-demo">No demo</span>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section class="section" id="contact" aria-labelledby="contact-heading">
+				<h2 id="contact-heading">Contact & links</h2>
+				<p>Email: <a href="mailto:rishabhmahar677@gmail.com">rishabhmahar677@gmail.com</a></p>
+				<p>GitHub: <a href="https://github.com/rishabhmahar" target="_blank" rel="noopener noreferrer">github.com/rishabhmahar</a></p>
+				<p>LinkedIn: <a href="https://www.linkedin.com/in/rishabh-mahar-6b056635b/" target="_blank" rel="noopener noreferrer">linkedin.com/in/rishabh-mahar-6b056635b</a></p>
+				<p><a href="#" class="btn btn-outline">Download resume (placeholder)</a></p>
+			</section>
+		</main>
+
+		<footer>
+			<p>style="color:#6b7280;font-size:0.9rem">© Rishabh Mahar — Built with Python & curiosity</p>
+		</footer>
+	</div>
+</body>
+</html>
